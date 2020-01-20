@@ -1,6 +1,7 @@
 var a=0;
 var k=1;
 var opdv=0;
+
 var otpvar=0;
 var con=0;
 $(document).ready(function()
