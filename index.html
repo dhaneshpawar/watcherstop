@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Watcherstop.com</title>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+
+ <meta http-equiv="refresh" content="">
+ <meta charset="ISO-8859-1">
+<script src="jquery-3.2.1.min.js"></script>
+<script src="myScript and JQuery.js"></script>
+
+<script>
+
+</script>
+</head>
+<body bgcolor="black">
+<style>
+</style>
+
+<div class="divwatcher2"><center>Watcherstop.com</center></div>
+
+ <video id="start"  class="video" autoplay loop> 
+     <source src="main.mp4">
+  </video>
+
+  <img src="hand.png" height="280px" width="110px">
+
+  <video class="video" autoplay muted loop>
+      <source src="right.mp4">
+  </video>
+
+  <center>
+      <img id="uparrow" class="arrow" src="arrow.png">
+      <img id="downarrow" class="arrow" src="arr.png">
+  </center>
+
+  <div id="contents">
+    <button id="homeb"    class="button">home             </button>
+    <button id="loginb"   class="button">log in / sign up </button>
+    <button id="opdb"     class="button">our products     </button>
+    <button id="contactb" class="button">contact us       </button>
+    <button id="aboutb"   class="button">about us         </button>&nbsp;
+  </div>
+
+  <div id="homed" name="home" class="div2"> <br>
+     <center> This site is only for the people's who loves watches.<br></center>
+     <center> here is something you will get all information.<br></center>
+     <center>click on log in / sign up to become a watcher.<br></center>
+     <center> click on our products to see our products and buy them , before performing any task their you must log in first.<br></center>
+     <center> click on contact us if you have any query or our product related information or issues.<br></center>
+     <center> click on about us to know about our terms and conditions.<br></center><br>
+  </div>
+
+ <div id="logind" name="home" class="div33">
+    	<form name="form">
+
+		<br><center>
+        Email address : <input type="text" name="email" class="div22" placeholder="                                                   @gmail.com"required>
+                        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Password :      <input type="password" name="pass" placeholder="Your watcher password" class="div22" required>
+                        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="submit" id="continuelog" class="div22" value="Continue" Onclick="validate()"><br><br>
+        <div id="welcome" class="div33">
+             <center>welcome you have successfully logged in, now click on our products to buy products ......<br><hr></center>
+        </div>
+        New to Watcherstop.com click here and become a watcher <button id="signupb" class="divs"><b>Sign up</b></button> .<br><br>
+    <div id="signupd">
+        Email address : <input type="text" class="div22"  name="emailsecond" placeholder="                                                   @gmail.com"required><br><br>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button id="gotp" class="div22"  Onclick="otp()">Generate O.T.P.</button>
+             <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div id="afterotp">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O.T.P.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <input type="text" placeholder="One Time Password"  name="otp2" class="div22" required>
+          <br><br>&nbsp;&nbsp;&nbsp;
+          Password&nbsp;&nbsp;&nbsp;&nbsp;: <input type="password" name="npass" placeholder="Create Your watcher password" class="div22" required>
+          <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+          Confirm&nbsp;&nbsp;&nbsp;&nbsp;: <input type="password"  name="cpass"placeholder=" Confirm Your watcher password" class="div22" required>
+          <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" id="continuesnup" class="div22" value="Continue" Onclick="validate2()">
+        </div><br />
+        <font id="welcome2" class="div2">
+        <center>welcome you have successfully signed up, now click on our products to buy products ......<br><hr></center>
+        </font>
+	</div></center>
+
+        </form>
+ </div>
+
+ <div id="opdd1" class="div2" name="OurProductsLoginRestriction">
+      <br><hr><br>
+      <center>Sorry but you must First Log in... or if you dont have account please sign up.......</center>
+      <br><hr><br>
+ </div>
+
+<div id="opdd2" class="div2" name="OurProducts">
+ <h3><br><center>Welcome....... to watcherstop .... we are happy that you are here , please select products or brand that you want.......</center></h3><br><hr><br>
+ <button><img src="omega.jpg"          class="prod"><a href="signup.html"><br>Omega</a></button>&nbsp;&nbsp;&nbsp;&nbsp;
+ <button><img src="maxima.jpg"          class="prod"><a href="signup.html"><br>Maxima</a></button>&nbsp;&nbsp;&nbsp;&nbsp;
+ <button><img src="citizen.jpg"  class="prod"><a href="signup.html"><br>Citizen</a></button> &nbsp;&nbsp;&nbsp;&nbsp;
+ <button><img src="fastrack.jpg" class="prod"><a href="signup.html"><br>Fastrack</a></button> &nbsp;&nbsp;&nbsp;&nbsp;
+ <button><img src="titan.jpg"        class="prod"><a href="signup.html"><br>Titan</a></button>&nbsp;&nbsp;&nbsp;&nbsp;<br><hr><br>
+ <button><img src="timax.jpg"              class="prod"><a href="signup.html"><br>Timex</a></button>&nbsp;&nbsp;&nbsp;&nbsp;
+ <button><img src="casio.jpg"         class="prod"><a href="signup.html"><br>Casio</a></button>&nbsp;&nbsp;&nbsp;&nbsp;
+ <button><img src="guess.jpg"          class="prod"><a href="signup.html"><br>Guess</a></button>&nbsp;&nbsp;&nbsp;&nbsp;
+ <button><img src="tommy.jpg"          class="prod"><a href="signup.html"><br>Tommy Hilfiger</a></button>&nbsp;&nbsp;&nbsp;&nbsp;
+ <button><img src="fossil.jpg"          class="prod"><a href="signup.html"><br>Fossil</a></button>&nbsp;&nbsp;&nbsp;&nbsp;<br><hr><br>
+ <button><img src="rolex.jpg"          class="prod"><a href="signup.html"><br>Rolex</a></button>&nbsp;&nbsp;&nbsp;&nbsp;
+ <button><img src="sonata.jpg"          class="prod"><a href="signup.html"><br>Sonata</a></button>&nbsp;&nbsp;&nbsp;&nbsp;
+ <button><img src="giordano.jpg"          class="prod"><a href="signup.html"><br>Giordano</a></button>&nbsp;&nbsp;&nbsp;&nbsp;
+ <button><img src="daniel.jpg"          class="prod"><a href="signup.html"><br>Daniel Klein</a></button>&nbsp;&nbsp;&nbsp;&nbsp;
+ <button><img src="graham.jpg"          class="prod"><a href="signup.html"><br>Graham</a></button>&nbsp;&nbsp;&nbsp;&nbsp;<br><hr><br>
+ <center><a href="moreProduct.html">Click here </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for more brands ........</center><br><hr><br>
+ </div>
+
+<div id="contactd" class="div2" >
+ &nbsp; If you have any query you can go to our help menu by just clicking on the button  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="help.html"><button class="button">Help</button></a><br>
+ <hr>&nbsp; If you want some information related to our products you can click here to go to our products menu  <button id="opdb2" class="button">Our products</button><br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;& here you can search and get the detailed information of products .......<hr> <br>
+ &nbsp; If you have any product related issues, Enter your email id and select brand of your product ....
+ <br>&nbsp;We will forward your request to that perticular brand , and they will communicate with you using this email id.<br>
+ <br />
+ <form name="form2">
+  <center>
+   Email address : <input type="text" class="div22" name="email2" placeholder="                                                   @gmail.com"required>
+                   <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   Password : <input type="password" name="pass2" placeholder="Your watcher password" class="div22" required>
+                   <br><br>&nbsp;
+   Select Brand : <select class="div22" required>
+                    <option>Omega</option>
+                    <option>Maxima</option>
+                    <option>Citizen</option>
+                    <option>Fastrack</option>
+                    <option>Titan</option>
+                    <option>Timex</option>
+                    <option>Casio</option>
+                    <option>Guess</option>
+                    <option>Tommy Hilfiger</option>
+                    <option>Fossil</option>
+                    <option>Rolex</option>
+                    <option>Sonata</option>
+					<option>Giordano</option>
+                    <option>Daniel Klein</option>
+                    <option>Graham</option>
+                  </select>
+                  <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Issue &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <input type="text" class="div22" name="iss" placeholder="Enter issue in short" required>
+                  <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="submit" id="continueissue" class="div22" value="Continue" Onclick="validate3()"><br><br>
+ </form>
+    <div class="div33" id="issue-submited"><br><hr><br>Your request is submited , You can also buy other products ........ <br><br><hr><br></div>
+</div>
+
+<div id="aboutd" class="div2">
+   <br><center>Hello are you interested to know about us , it is good for us......</center><br>
+   <hr><br><center><a href="aboutus.html">Click here</a></center><hr>
+</div>
+
+<video id="start4" autoplay="autoplay" class="lastvideo" muted loop>
+     <source src="left.mp4">
+  </video>
+<footer>
+  <font color="White">&nbsp;&nbsp;&nbsp;&nbsp;Click above arrow to see contents </font>&nbsp;&nbsp;
+  <font id="myfooter" class="divwatcher2">&nbsp;&nbsp;Watcherstop.com</font>&nbsp;&nbsp;
+  <font color="White">&nbsp;&nbsp;&nbsp;&nbsp;Click this arrow to hide all contents .......</font>&nbsp;&nbsp;
+  <img id="hidearrow" class="arrow" src="arr.png">
+  <video id="start3" autoplay="autoplay" class="footervideo" muted loop>
+     <source src="left.mp4">
+  </video>
+ </footer>
+
+</body>
+</html>

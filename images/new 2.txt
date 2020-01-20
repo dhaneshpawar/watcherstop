@@ -1,0 +1,22 @@
+<html>
+ <head>
+  <meta charset="ISO-8859-1">
+  <script src="jquery-3.2.1.min.js"></script>
+   <script>
+	$(document).ready(function()
+	{
+	$("#button").toggle('1000',function()
+	{
+	$("#div").show(1000);
+	});
+	});  
+   </script>
+ </head>
+ <body>
+   <style>
+	   
+   </style>
+ <button id="button">show</button>
+ <div id="div">Hello here is content</div>
+ </body>
+ </html>

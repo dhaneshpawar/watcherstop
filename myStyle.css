@@ -1,0 +1,133 @@
+.lastvideo
+{
+ height: 50%;
+ width: 100%;
+}
+.video
+{
+ height: 300px;
+ width: 600px;
+}
+.footervideo
+{
+ height: 100px;
+ width: 180px;
+}
+
+.divwatcher
+{
+height: 100px;
+width: 100%;
+font-size: 90px;
+align: center;
+color: white;
+}
+.divwatcher2
+{
+height: 80px;
+width: 100%;
+font-size: 60px;
+align: center;
+color: white;
+}
+.div
+{
+height: 100px;
+width: 100%;
+font-size: 90px;
+align: center;
+color: white;
+background-color: #3b5998;
+}
+.button
+{
+display: inline-block;
+border-radius: 4px;
+text-align: center;
+font-size: 24px;
+padding: 20px;
+width: 240px;
+transition: all 0.5s;
+cursor: pointer;
+margin: 5px;
+border-radius: 10px;
+}
+.arrow
+{
+display: inline-block;
+border-radius: 4px;
+text-align: center;
+font-size: 20px;
+padding: 20px;
+width: 40px;
+transition: all 0.5s;
+cursor: pointer;
+margin: 5px;
+border-radius: 10px;
+}
+.div2
+{
+height: 5%;
+width: 100%;
+font-size: 20px;
+align: center;
+color: white;
+background-color: #3b5998;
+}
+.div22
+{
+height: 5%;
+width: 30%;
+font-size: 20px;
+align: center;
+color: white;
+background-color: #3b5998;
+}
+.div33
+{
+height: 5%;
+width: 100%;
+font-size: 20px;
+align: center;
+color: white;
+background-color: #3b5998;
+}
+.arrow
+{
+height: 4%;
+width: 6%;
+}
+.arrow2
+{
+height: 2%;
+width: 4%;
+}
+.divs
+{
+align: center;
+color: white;
+background-color: #3b5998;
+}
+.div3
+{
+height: 5%;
+width: 30%;
+font-size: 20px;
+align: center;
+color: white;
+background-color: #3b5998;
+}
+.div4
+{
+height: 5%;
+width: 5%;
+font-size: 20px;
+align: center;
+color: white;
+background-color: #3b5998;
+}
+.prod
+{
+height: 200px;
+width:  220px;
+}
